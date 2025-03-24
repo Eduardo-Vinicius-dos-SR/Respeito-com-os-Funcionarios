@@ -1,0 +1,60 @@
+@media (min-width: 1024px) {
+	.title,
+	.description {
+		width: 55vw;
+	}
+
+	body .title {
+		font-size: 3.5vw;
+	}
+
+	body .description {
+		margin-bottom: 4vw;
+		font-size: 1.4vw;
+	}
+
+	body .topicos {
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+
+	.topicos .topico {
+		width: 40%;
+	}
+
+	.topicos .topico .subtitle {
+		font-size: 2vw;
+	}
+
+	.topicos .topico .beneficios li::marker {
+		font-size: 1.4vw;
+	}
+
+	.topicos .topico .beneficios li h2 {
+		font-size: 1.4vw;
+	}
+
+	.topicos .topico .beneficios li p {
+		font-size: 1.2vw;
+	}
+	.topicos .topico:first-child .beneficios li p {
+		font-size: 1.3vw;
+	}
+
+	.ex {
+		padding: 5px 0;
+	}
+
+	body .ex li {
+		padding-bottom: 7px;
+		font-size: 1.1vw;
+	}
+
+	body footer .conclusao {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 3vw;
+		font-size: 1.8vw;
+	}
+}
